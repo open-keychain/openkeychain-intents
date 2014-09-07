@@ -24,8 +24,10 @@ public class OpenKeychainIntents {
     public static final String INTENT_PREFIX = PACKAGE_NAME + ".action.";
     public static final String EXTRA_PREFIX = PACKAGE_NAME + ".";
 
-    public static final String ENCRYPT = INTENT_PREFIX + "ENCRYPT";
+    public static final String ENCRYPT_TEXT = INTENT_PREFIX + "ENCRYPT_TEXT";
     public static final String ENCRYPT_EXTRA_TEXT = EXTRA_PREFIX + "EXTRA_TEXT"; // String
+
+    public static final String ENCRYPT_DATA = INTENT_PREFIX + "ENCRYPT_DATA";
     public static final String ENCRYPT_ASCII_ARMOR = EXTRA_PREFIX + "EXTRA_ASCII_ARMOR"; // boolean
 
     public static final String DECRYPT = INTENT_PREFIX + "DECRYPT";
