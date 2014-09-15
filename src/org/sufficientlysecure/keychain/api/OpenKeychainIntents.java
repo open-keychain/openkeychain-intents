@@ -30,8 +30,10 @@ public class OpenKeychainIntents {
     public static final String ENCRYPT_DATA = INTENT_PREFIX + "ENCRYPT_DATA";
     public static final String ENCRYPT_EXTRA_ASCII_ARMOR = EXTRA_PREFIX + "EXTRA_ASCII_ARMOR"; // boolean
 
-    public static final String DECRYPT = INTENT_PREFIX + "DECRYPT";
+    public static final String DECRYPT_TEXT = INTENT_PREFIX + "DECRYPT_TEXT";
     public static final String DECRYPT_EXTRA_TEXT = EXTRA_PREFIX + "EXTRA_TEXT"; // String
+
+    public static final String DECRYPT_DATA = INTENT_PREFIX + "DECRYPT_DATA";
 
     public static final String IMPORT_KEY = INTENT_PREFIX + "IMPORT_KEY";
     public static final String IMPORT_EXTRA_KEY_EXTRA_KEY_BYTES = EXTRA_PREFIX + "EXTRA_KEY_BYTES"; // byte[]
