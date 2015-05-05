@@ -6,10 +6,10 @@ android {
     buildToolsVersion '21.1.2'
 
     defaultConfig {
-        versionCode 2
-        versionName '3.0'
         minSdkVersion 9
         targetSdkVersion 22
+        versionCode 2
+        versionName '3.0'
     }
     
     // Do not abort build if lint finds errors
