@@ -6,8 +6,8 @@ android {
     buildToolsVersion '21.1.2'
 
     defaultConfig {
-        versionCode 1
-        versionName '2.0'
+        versionCode 2
+        versionName '3.0'
         minSdkVersion 9
         targetSdkVersion 22
     }
@@ -22,7 +22,7 @@ publish {
     userOrg = 'sufficientlysecure'
     groupId = 'org.sufficientlysecure'
     artifactId = 'openkeychain-intents'
-    version = '2.0'
+    version = '3.0'
     description = 'Just the Intents to start OpenKeychain for certain actions, e.g., encrypt a file.'
     website = 'https://github.com/sufficientlysecure/openkeychain-intents'
 }

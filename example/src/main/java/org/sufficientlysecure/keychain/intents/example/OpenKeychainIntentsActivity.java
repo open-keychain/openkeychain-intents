@@ -26,7 +26,7 @@ import android.preference.PreferenceActivity;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.sufficientlysecure.keychain.api.OpenKeychainIntents;
+import org.sufficientlysecure.keychain.intents.OpenKeychainIntents;
 
 import java.io.UnsupportedEncodingException;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.sufficientlysecure.keychain.api;
+package org.sufficientlysecure.keychain.intents;
 
 public class OpenKeychainIntents {
     private static final String PACKAGE_NAME = "org.sufficientlysecure.keychain";

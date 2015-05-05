@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.sufficientlysecure:openkeychain-intents:2.0'
+    compile 'org.sufficientlysecure:openkeychain-intents:3.0'
 }
 ```
 
