@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+apply plugin: 'bintray-release' // must be applied after your artifact generating plugin (eg. java / com.android.library)
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '21.1.2'
+
+    defaultConfig {
+        versionCode 1
+        versionName '2.0'
+        minSdkVersion 9
+        targetSdkVersion 22
+    }
+    
+    // Do not abort build if lint finds errors
+    lintOptions {
+        abortOnError false
+    }
+}
+
+publish {
+    userOrg = 'sufficientlysecure'
+    groupId = 'org.sufficientlysecure'
+    artifactId = 'openkeychain-intents'
+    version = '2.0'
+    description = 'Just the Intents to start OpenKeychain for certain actions, e.g., encrypt a file.'
+    website = 'https://github.com/sufficientlysecure/openkeychain-intents'
+}

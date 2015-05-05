@@ -1,22 +1,15 @@
-// please leave this here, so this library builds on its own
 buildscript {
     repositories {
-        mavenCentral()
+        jcenter()
     }
-
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.android.tools.build:gradle:1.2.2'
+        classpath 'com.novoda:bintray-release:0.2.7'
     }
 }
 
-apply plugin: 'com.android.library'
-
-android {
-    compileSdkVersion 21
-    buildToolsVersion '21.1.2'
-    
-    // Do not abort build if lint finds errors
-    lintOptions {
-        abortOnError false
+allprojects {
+    repositories {
+        jcenter()
     }
 }
