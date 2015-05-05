@@ -3,7 +3,7 @@
 These Intents can be used without using Android permissions to start OpenKeychain activities for cryptographic operations, such as encrypt/decrypt/sign/verify, or other method, such as key import.
 
 ## License
-While OpenKeychain itself is GPLv3+, this is licensed under Apache License v2.
+While OpenKeychain itself is GPLv3+, this library is licensed under Apache License v2.
 Thus, you are allowed to also use it in closed source applications as long as you respect the [Apache License v2](https://github.com/open-keychain/openkeychain-intents/blob/master/LICENSE).
 
     Licensed under the Apache License, Version 2.0 (the "License");
