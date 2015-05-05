@@ -1,4 +1,4 @@
-# OpenKeychain API library
+# OpenKeychain Intents
 
 Just the Intents to start OpenKeychain for certain actions, e.g., encrypt a file.
 
@@ -37,6 +37,11 @@ dependencies {
 
 All Intents require user interaction, e.g. to finally encrypt the user needs to press the "Encrypt" button.
 To do automatic encryption/decryption/sign/verify use the OpenPGP Remote API.
+
+### Example Code
+Please look into [OpenKeychainIntentsActivity](https://github.com/open-keychain/openkeychain-intents/blob/master/example/src/main/java/org/sufficientlysecure/keychain/intents/example/OpenKeychainIntentsActivity.java).
+
+## Intents defined in this library
 
 #### Android Intent actions:
 
