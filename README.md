@@ -1,6 +1,6 @@
 # OpenKeychain Intents
 
-Just the Intents to start OpenKeychain for certain actions, e.g., encrypt a file.
+These Intents can be used without using Android permissions to start OpenKeychain activities for cryptographic operations, such as encrypt/decrypt/sign/verify, or other method, such as key import.
 
 ## License
 While OpenKeychain itself is GPLv3+, the API library is licensed under Apache License v2.
@@ -36,7 +36,7 @@ dependencies {
 ## Usage
 
 All Intents require user interaction, e.g. to finally encrypt the user needs to press the "Encrypt" button.
-To do automatic encryption/decryption/sign/verify use the OpenPGP Remote API.
+To do automatic encryption/decryption/sign/verify use the [OpenPGP API](https://github.com/open-keychain/openpgp-api).
 
 ### Example Code
 Please look into [OpenKeychainIntentsActivity](https://github.com/open-keychain/openkeychain-intents/blob/master/example/src/main/java/org/sufficientlysecure/keychain/intents/example/OpenKeychainIntentsActivity.java).

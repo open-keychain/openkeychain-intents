@@ -23,6 +23,6 @@ publish {
     groupId = 'org.sufficientlysecure'
     artifactId = 'openkeychain-intents'
     version = '3.0'
-    description = 'Just the Intents to start OpenKeychain for certain actions, e.g., encrypt a file.'
+    description = 'These Intents can be used without using Android permissions to start OpenKeychain activities for cryptographic operations, such as encrypt/decrypt/sign/verify, or other method, such as key import.'
     website = 'https://github.com/sufficientlysecure/openkeychain-intents'
 }
